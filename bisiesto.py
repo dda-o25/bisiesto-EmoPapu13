@@ -1,15 +1,18 @@
 """
-Inserta el encabezado aquí y escribe tu código abajo
+El programa determina si un año es bisiesto, bisisiesto quiere decir si es divisible entre 4, pero no entre 100, excepto que sea 
+divisible entre 400
 """
 
 # Declaraciones
-CONSTANTE = valor
 
 # Entradas
-entrada = input()
+año = int(input("Introduce el año: "))
 
 # Proceso
-
+if (año % 4 == 0 and año % 100 != 0) or (año % 400 == 0):
+    resultado = "si es bisiesto"
+else:
+    resultado = "no es bisiesto"
 
 # Salidas
-print(salida)
+print(resultado)
