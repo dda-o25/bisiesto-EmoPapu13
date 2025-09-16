@@ -10,9 +10,9 @@ año = int(input("Introduce el año: "))
 
 # Proceso
 if (año % 4 == 0 and año % 100 != 0) or (año % 400 == 0):
-    resultado = "si es bisiesto"
+    resultado = "sí"
 else:
-    resultado = "no es bisiesto"
+    resultado = "no"
 
 # Salidas
 print(resultado)
